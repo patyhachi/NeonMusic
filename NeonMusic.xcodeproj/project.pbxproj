@@ -15,6 +15,7 @@
 		4F384A3D209B2CA9006C4348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F384A3B209B2CA9006C4348 /* Main.storyboard */; };
 		4F384A3F209B2CAA006C4348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F384A3E209B2CAA006C4348 /* Assets.xcassets */; };
 		4F384A42209B2CAA006C4348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F384A40209B2CAA006C4348 /* LaunchScreen.storyboard */; };
+		4FBCD05C209B780D0066B3BC /* starboy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4FBCD05B209B780D0066B3BC /* starboy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4F384A3E209B2CAA006C4348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F384A41209B2CAA006C4348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F384A43209B2CAA006C4348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FBCD05B209B780D0066B3BC /* starboy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = starboy.mp3; path = ../../../Desktop/starboy.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				4F384A35209B2CA9006C4348 /* Actions.sks */,
 				4F384A37209B2CA9006C4348 /* GameScene.swift */,
 				4F384A39209B2CA9006C4348 /* GameViewController.swift */,
+				4FBCD05B209B780D0066B3BC /* starboy.mp3 */,
 				4F384A3B209B2CA9006C4348 /* Main.storyboard */,
 				4F384A3E209B2CAA006C4348 /* Assets.xcassets */,
 				4F384A40209B2CAA006C4348 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 				4F384A3F209B2CAA006C4348 /* Assets.xcassets in Resources */,
 				4F384A42209B2CAA006C4348 /* LaunchScreen.storyboard in Resources */,
 				4F384A36209B2CA9006C4348 /* Actions.sks in Resources */,
+				4FBCD05C209B780D0066B3BC /* starboy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9SANR3X68;
 				INFOPLIST_FILE = NeonMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q9SANR3X68;
 				INFOPLIST_FILE = NeonMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

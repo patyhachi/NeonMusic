@@ -45,12 +45,11 @@ class GameScene: SKScene {
         //pegando as settings definidas no Gamescene
         bottom1 = childNode(withName: "bottom1") as! SKSpriteNode
         bottom2 = childNode(withName: "bottom2") as! SKSpriteNode
-  bottom2.xScale *= -1
+        bottom2.xScale *= -1
         
         rightTrigger = childNode(withName: "rightTrigger") as! SKSpriteNode
         wrongTrigger = childNode(withName: "wrongTrigger") as! SKSpriteNode
         scoreLabel = childNode(withName: "score") as! SKLabelNode
-        //createPandeiroRegions()
         
         //criando o caminho da bola caminhante
         path.move(to: CGPoint(x: 0, y: 0))
@@ -125,7 +124,7 @@ class GameScene: SKScene {
         var int : Double = 1.0
         run(sound)
         
-        for _ in 1...20{
+        for _ in 1...70{
             createNote(interval: bps/2, type: "note1", &int)
             createNote(interval: bps/4, type: "note1", &int)
             createNote(interval: bps/8, type: "note2", &int)
